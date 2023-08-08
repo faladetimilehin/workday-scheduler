@@ -10,7 +10,7 @@ $(document).ready(function () {
       let blockHour = parseInt($(this).attr("id"));
 
       if (blockHour < currentHour) {
-        $(this).addClass("present");
+        $(this).addClass("past");
       } else if (blockHour === currentHour) {
         $(this).addClass("present");
       } else {
